@@ -1,0 +1,9 @@
+### Missing 3D models - created on 2022-07-19 16:23
+### Printed by checking_3D_models plugin
+Board file: /home/mwl/Electronics/EE_Makerspace/Boards/gamepad/SolderingInduction/SolderingInduction.kicad_pcb
+3D missing models written to:
+/home/mwl/Electronics/EE_Makerspace/Boards/gamepad/SolderingInduction/SolderingInduction_missing3Dmodels.txt
+-------
+-------
+NUM of 3D missing models:0
+checked extensions ['.stp', '.step', '.stpZ']

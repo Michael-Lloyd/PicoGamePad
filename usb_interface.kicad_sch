@@ -1,0 +1,17 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 517bed56-391f-4811-a1ae-7d2bb9fe6b27)
+
+  (paper "A4")
+
+  (title_block
+    (title "Soldering Induction (July 2022)")
+    (date "2022-07-19")
+    (rev "3.5.0")
+    (company "UNSW Engineering Makerspace")
+  )
+
+  (lib_symbols
+  )
+
+)
