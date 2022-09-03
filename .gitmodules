@@ -1,0 +1,5 @@
+[submodule "v3/v3a"]
+	path = v3/v3a
+	url = git@github.com:Michael-Lloyd/PicoGamePad.git
+[submodule "v3a"]
+	branch = v3a
