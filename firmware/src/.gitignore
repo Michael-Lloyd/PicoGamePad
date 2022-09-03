@@ -1,0 +1,18 @@
+# Ignore everything
+* 
+
+# Except... 
+!.gitignore
+!CMakeLists.txt 
+!pico_sdk_import.cmake 
+!platformio.ini 
+!util
+!util/** 
+!src
+!src/** 
+!lib
+!lib/** 
+!include 
+!include/** 
+!configs/
+!configs/** 

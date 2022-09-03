@@ -1,0 +1,3 @@
+[submodule "hardware/v3a/example/KEEBPAD-MK_v1"]
+	path = hardware/v3a/example/KEEBPAD-MK_v1
+	url = git@github.com:Michael-Lloyd/KEEBPAD-MK_v1.git

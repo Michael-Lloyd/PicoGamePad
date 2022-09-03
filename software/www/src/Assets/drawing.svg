@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="28.102789mm"
+   height="9.7413864mm"
+   viewBox="0 0 28.102789 9.7413864"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
+   sodipodi:docname="drawing.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="9.5144352"
+     inkscape:cx="55.652279"
+     inkscape:cy="4.9924141"
+     inkscape:window-width="1914"
+     inkscape:window-height="1038"
+     inkscape:window-x="0"
+     inkscape:window-y="18"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-22.622025,-72.912054)">
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#ff0000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="rect1231"
+       width="27.402788"
+       height="9.0413866"
+       x="22.972025"
+       y="73.262054" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.220293;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
+       id="path111"
+       cx="44.259243"
+       cy="79.897766"
+       r="1.5080589"
+       transform="rotate(-0.30831142)" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.220293;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
+       id="path111-3"
+       cx="47.495655"
+       cy="76.661354"
+       r="1.5080589"
+       transform="rotate(-0.30831142)" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.7625px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.28575px;fill:#ffffff;stroke-width:0.264583"
+       x="23.683546"
+       y="77.979378"
+       id="text396"><tspan
+         sodipodi:role="line"
+         id="tspan394"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:4.7625px;font-family:FreeSans;-inkscape-font-specification:'FreeSans Semi-Bold';fill:#ffffff;stroke-width:0.264583"
+         x="23.683546"
+         y="77.979378"
+         dx="0">PICO</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.80514px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.228308px;fill:#ffffff;stroke-width:0.211396"
+       x="23.912333"
+       y="81.196747"
+       id="text396-6"><tspan
+         sodipodi:role="line"
+         id="tspan394-7"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.80514px;font-family:FreeSans;-inkscape-font-specification:'FreeSans Semi-Bold';fill:#ffffff;stroke-width:0.211396"
+         x="23.912333"
+         y="81.196747">GAME</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.98783px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.239271px;fill:#ffffff;stroke-width:0.221547"
+       x="34.369228"
+       y="81.276657"
+       id="text396-6-5"><tspan
+         sodipodi:role="line"
+         id="tspan394-7-3"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.98783px;font-family:FreeSans;-inkscape-font-specification:'FreeSans Semi-Bold';fill:#ffffff;stroke-width:0.221547"
+         x="34.369228"
+         y="81.276657">PAD</tspan></text>
+  </g>
+</svg>

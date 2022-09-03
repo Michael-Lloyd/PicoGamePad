@@ -1,0 +1,17 @@
+# Ignore everything
+*
+# Except... 
+!.gitignore
+!import
+!import/**
+!lib
+!lib/** 
+!exported
+!exported/**
+!fab
+!fab/**
+!jlcpcb
+!jlcpcb/** 
+!PicoGamePad*
+!fp-*
+!sym-*
