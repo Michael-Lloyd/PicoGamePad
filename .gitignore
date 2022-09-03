@@ -1,9 +1,5 @@
-exports
 exports/**
-imports 
 imports/**
-jlcpcb
 jlcpcb/**
-*-backups
 *-backups/**
 *-bak 
