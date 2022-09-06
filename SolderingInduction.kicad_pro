@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.09999999999999999
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -484,7 +484,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.5,
+        "clearance": 0.3,
         "diff_pair_gap": 0.0,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.0,
@@ -492,10 +492,14 @@
         "microvia_diameter": 0.0,
         "microvia_drill": 0.0,
         "name": "PWR_LDO_VIN",
-        "nets": [],
+        "nets": [
+          "/LDO_{VIN}",
+          "/USB_VBUS",
+          "VBUS"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6.0
