@@ -423,7 +423,7 @@
         "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.127,
         "via_diameter": 0.46,
         "via_drill": 0.2,
         "wire_width": 6.0
@@ -441,7 +441,7 @@
         "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.35,
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6.0
@@ -477,7 +477,7 @@
         "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.35,
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6.0
@@ -546,7 +546,10 @@
         "microvia_diameter": 0.0,
         "microvia_drill": 0.0,
         "name": "USB_DP_TRACE",
-        "nets": [],
+        "nets": [
+          "/USB_{DATA}+",
+          "/USB_{DATA}-"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.345,
