@@ -1,4 +1,3 @@
-
 cmake_minimum_required(VERSION 3.12)
 
 # Pull in SDK (must be before project)
@@ -25,12 +24,14 @@ add_compile_options(-Wall
         -Wno-maybe-uninitialized
         )
 
-add_executable(main
-        main.c
-        )
+add_executable(main)
+
+pico_generate_pio_header(main ${CMAKE_CURRENT_LIST_DIR}/ws2812.pio OUTPUT_DIR ${CMAKE_CURRENT_LIST_DIR}/generated)
+target_sources(main PRIVATE main.cpp)
+target_link_libraries(main PRIVATE pico_stdlib hardware_pio)
 
 # pull in common dependencies
-target_link_libraries(main pico_stdlib)
+#target_link_libraries(main pico_stdlib)
 
 # create map/bin/hex file etc.
 pico_add_extra_outputs(main)
