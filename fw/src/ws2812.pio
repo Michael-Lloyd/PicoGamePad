@@ -7,3 +7,26 @@
 
 .wrap_target
 bitloop:
+    out x, 1            side 0 [T3 - 1] 
+    jmp !x do_zero      side 1 [T1 - 1]
+do one: 
+    jmp bitloop         side 1 [T2 - 1]
+do zero: 
+    nop                 side 0 [T2 - 1]
+.wrap 
+
+% c-sdk { 
+    #include "hardware/clocks.h"
+
+    static inline void ws2812_program_init(PIO pio, uint sm, uint offset, uint pin, float freq, bool rgbw) {
+        pio_gpio_init(pio, pin); 
+        pio_sm_set_consecutive_pindirs(pio, sm, pin, 1, true); 
+        
+        pio_sm_config c = ws2812_program_get_default_config(offset); 
+        sm_config_set_sideset_pins(&c, pin);
+
+        /* TBA */ 
+
+    }
+
+} 
