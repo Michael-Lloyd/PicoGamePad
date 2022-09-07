@@ -493,7 +493,6 @@
         "microvia_drill": 0.0,
         "name": "PWR_LDO_VIN",
         "nets": [
-          "/LDO_{VIN}",
           "/USB_VBUS",
           "VBUS"
         ],
