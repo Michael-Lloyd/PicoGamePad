@@ -1,5 +1,9 @@
-exports/**
-imports/**
-jlcpcb/**
+fab/
+fab/**
+jlcpcb/
+jlcpcb/** 
+production/
+production/**
+*-backups/
 *-backups/**
-*-bak 
+
