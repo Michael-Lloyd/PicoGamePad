@@ -1,8 +1,3 @@
- /*
- * SPDX-License-Identifier: MIT
- * SPDX-FileCopyrightText: Copyright (c) 2021 Jason Skuby (mytechtoybox.com)
- */
-
 #ifndef STORAGE_H_
 #define STORAGE_H_
 
