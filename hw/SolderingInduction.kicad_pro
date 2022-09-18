@@ -577,8 +577,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "exports/3d/board.step",
-      "vrml": "exports/3d/board.wrl"
+      "step": "export/board.step",
+      "vrml": "export/board.wrl"
     },
     "page_layout_descr_file": "generic.kicad_wks"
   },
