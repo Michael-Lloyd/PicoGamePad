@@ -1,6 +1,0 @@
-[submodule "fw/src/lib/Time"]
-	path = fw/src/lib/Time
-	url = https://github.com/PaulStoffregen/Time
-[submodule "fw/src/lib/ProtoThreads-Pico"]
-	path = fw/src/lib/ProtoThreads-Pico
-	url = git@github.com:Michael-Lloyd/ProtoThreads-Pico.git
