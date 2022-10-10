@@ -5,3 +5,5 @@
 !GERBERS_*.zip 
 !SOURCES_*.zip
 !v*.*.*.zip 
+!v*.*.*
+!v*.*.*/**
