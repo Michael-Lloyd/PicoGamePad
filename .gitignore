@@ -4,6 +4,10 @@
 !.gitignore 
 !GERBERS_*.zip 
 !SOURCES_*.zip
+!other
+!other/**
+!v*
+!v*/**
 !v*.*.*.zip 
 !v*.*.*
 !v*.*.*/**
