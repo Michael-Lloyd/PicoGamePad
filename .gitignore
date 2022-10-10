@@ -3,4 +3,5 @@
 # Except... 
 !.gitignore 
 !GERBERS_*.zip 
-!v.\..+.zip 
+!SOURCES_*.zip
+!v*.*.*.zip 
