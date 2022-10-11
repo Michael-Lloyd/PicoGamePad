@@ -1,13 +1,9 @@
-# Ignore everything 
-*
-# Except... 
-!.gitignore 
-!GERBERS_*.zip 
-!SOURCES_*.zip
-!other
-!other/**
-!v*
-!v*/**
-!v*.*.*.zip 
-!v*.*.*
-!v*.*.*/**
+fab/
+fab/**
+jlcpcb/
+jlcpcb/** 
+production/
+production/**
+*-backups/
+*-backups/**
+
