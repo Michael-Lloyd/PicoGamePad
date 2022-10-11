@@ -1,0 +1,11 @@
+# Ignore everything 
+*
+
+# Except... 
+!.gitignore 
+!*.md
+!*.png
+!*.gif 
+!*.h 
+!*.cpp
+!*.pio

@@ -1,0 +1,10 @@
+# Ignore everything 
+*
+
+# Except... 
+!.gitignore
+!ws2812/ 
+!ws2812/**
+!protothreads-pico
+!protothreads-pico/
+!protothreads-pico/**

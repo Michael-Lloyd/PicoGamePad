@@ -1,0 +1,15 @@
+# Ignore everything
+*
+
+# Except... 
+!.gitignore 
+!lib
+!CMakeLists.txt 
+!scripts/ 
+!scripts/**
+!update.sh 
+!pico_sdk_import.cmake 
+!picogamepad.h 
+!pio_ws2812.h 
+!ws2812.c 
+!ws2812.pio 
