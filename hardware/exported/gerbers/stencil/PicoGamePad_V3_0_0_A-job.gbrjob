@@ -1,0 +1,181 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "(6.0.8)"
+    },
+    "CreationDate": "2022-10-11T12:28:16+11:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "PicoGamePad_V3_0_0_A",
+      "GUID": "5069636f-4761-46d6-9550-61645f56335f",
+      "Revision": "4.0.0 (Rev A)"
+    },
+    "Size": {
+      "X": 68.9526,
+      "Y": 37.56
+    },
+    "LayerNumber": 4,
+    "BoardThickness": 1.02,
+    "Finish": "ENIG",
+    "ImpedanceControlled": true,
+    "Castellated": true,
+    "EdgePlating": true,
+    "EdgeConnector": true,
+    "EdgeConnectorBevelled": false
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.127,
+      "PadToTrack": 0.127,
+      "TrackToTrack": 0.127,
+      "MinLineWidth": 0.127,
+      "TrackToRegion": 0.127,
+      "RegionToRegion": 0.127
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.127,
+      "MinLineWidth": 0.127,
+      "TrackToRegion": 0.127,
+      "RegionToRegion": 0.127
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "PicoGamePad_V3_0_0_A-BOTTOM_SOLDERPASTE.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "PicoGamePad_V3_0_0_A-TOP_SILKSCREEN.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "PicoGamePad_V3_0_0_A-BOTTOM_SILKSCREEN.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "PicoGamePad_V3_0_0_A-TOP_SOLDERMASK.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "PicoGamePad_V3_0_0_A-BOTTOM_SOLDERMASK.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "PicoGamePad_V3_0_0_A-User_Comments.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "PicoGamePad_V3_0_0_A-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "PicoGamePad_V3_0_0_A-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "PicoGamePad_V3_0_0_A-B_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Bot",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Color": "White",
+      "Material": "Liquid Photo",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "Green",
+      "Thickness": 0.02,
+      "Material": "Liquid Ink",
+      "DielectricConstant": "3.3",
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "TOP"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.28,
+      "Material": "FR408-HR",
+      "DielectricConstant": "3.69",
+      "LossTangent": "0.0091",
+      "Name": "TOP/3V3",
+      "Notes": "Type: dielectric layer 1 (from TOP to 3V3)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "3V3"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.28,
+      "Material": "FR408-HR",
+      "DielectricConstant": "3.69",
+      "LossTangent": "0.0091",
+      "Name": "3V3/GND",
+      "Notes": "Type: dielectric layer 2 (from 3V3 to GND)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "GND"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.28,
+      "Material": "FR408-HR",
+      "DielectricConstant": "3.69",
+      "LossTangent": "0.0091",
+      "Name": "GND/BOTTOM",
+      "Notes": "Type: dielectric layer 3 (from GND to BOTTOM)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "BOTTOM"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "Green",
+      "Thickness": 0.02,
+      "Material": "Liquid Ink",
+      "DielectricConstant": "3.3",
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Color": "White",
+      "Material": "Liquid Photo",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}
