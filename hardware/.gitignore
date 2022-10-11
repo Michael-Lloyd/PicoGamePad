@@ -6,9 +6,15 @@
 !lib/**
 !fab
 !fab/**
+!exported 
+!exported/** 
+!import 
+!import/** 
 !jlcpcb
 !jlcpcb/** 
 !.gitignore
 !fp-*
 !sym-*
 !PicoGamePad*
+!sch
+!sch/** 
