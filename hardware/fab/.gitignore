@@ -1,0 +1,10 @@
+# Ignore everything 
+* 
+
+# Except... 
+!.gitignore 
+!3D 
+!3D/** 
+!*.sh 
+!GERBER-*.zip 
+!schematic*.pdf 
