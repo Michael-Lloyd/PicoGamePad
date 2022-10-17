@@ -13,6 +13,6 @@
 !software/**
 !hardware*
 !hardware/**
-!firmware*
+!firmware
 !firmware/**
 
