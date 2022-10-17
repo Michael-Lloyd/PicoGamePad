@@ -1,7 +1,6 @@
 <p align="center"> <img src="https://github.com/UNSW-Makerspaces/ElectronicsInduction/blob/main/software/www/src/Assets/logo.png?raw=true"/></p>
 
-> This is the main development branch for the Electronics Induction.  
-
+> 
 <p align="center">
 <a target="_blank" href="./documentation/README.md"><img src="https://img.shields.io/badge/DOCUMENTATION-orange?style=for-the-badge&color=e53935" /></a>&nbsp;
   <a target="_blank" href="./documentation/pages/webserver/README.md"><img src="https://img.shields.io/badge/WEB%20API-orange?style=for-the-badge&color=e53935" /></a>&nbsp;
