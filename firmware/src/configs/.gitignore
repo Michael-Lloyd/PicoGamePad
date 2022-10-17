@@ -3,3 +3,5 @@
 
 # Except... 
 !.gitignore 
+!PicoGamePad-v3A
+!PicoGamePad-v3A/** 
