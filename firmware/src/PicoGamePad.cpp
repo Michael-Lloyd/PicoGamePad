@@ -41,6 +41,7 @@ PicoGamePad::~PicoGamePad() {
 }
 
 void PicoGamePad::setup() {	
+
     // Setup Gamepad and Gamepad Storage
 	Gamepad * gamepad = Storage::getInstance().GetGamepad();
 	gamepad->setup();
@@ -48,20 +49,14 @@ void PicoGamePad::setup() {
 	// Check for Config or Regular Input (w/ Button Combos)
 	InputMode inputMode = gamepad->options.inputMode;
 	gamepad->read();
-	if (gamepad->pressedF1() && gamepad->pressedUp()) { // BOOTSEL - Go to UF2 Flasher
+
+	if (gamepad->pressedStart() && gamepad->pressedUp()) { // BOOTSEL - Go to UF2 Flasher
 		reset_usb_boot(0, 0);
-	} else if (gamepad->pressedS2()) { 					// START - Config Mode
-		Storage::getInstance().SetConfigMode(true);
-		inputMode = INPUT_MODE_CONFIG; // force config
-        initialize_driver(inputMode);
-		ConfigManager::getInstance().setup(CONFIG_TYPE_WEB);
 	} else { 											// Gamepad Mode
 		Storage::getInstance().SetConfigMode(false);
-		if (gamepad->pressedB3())                       // HOLD B3 - D-INPUT
+		if (gamepad->pressedStart())                       
 			inputMode = INPUT_MODE_HID;
-		else if (gamepad->pressedB1())                  // HOLD B1 - SWITCH
-			inputMode = INPUT_MODE_SWITCH;
-		else if (gamepad->pressedB2())                  // HOLD B2 - X-INPUT
+		else if (gamepad->pressedSelect())                  
 			inputMode = INPUT_MODE_XINPUT;
 		if (inputMode != gamepad->options.inputMode ) { // Save changes
 			gamepad->options.inputMode = inputMode;
@@ -70,19 +65,14 @@ void PicoGamePad::setup() {
 		initialize_driver(inputMode);
 	}
 
-	// Setup Add-on Inputs
-	setupInput(new AnalogInput());
-	setupInput(new I2CAnalog1219Input());
-	setupInput(new JSliderInput());
-	setupInput(new ReverseInput());
-	setupInput(new TurboInput());
-	
 }
 
 void PicoGamePad::run() {
+
 	Gamepad * gamepad = Storage::getInstance().GetGamepad();
 	Gamepad * processedGamepad = Storage::getInstance().GetProcessedGamepad();
 	bool configMode = Storage::getInstance().GetConfigMode();
+
 	while (1) { // LOOP
 		// Config Loop (Web-Config does not require gamepad)
 		if (configMode == true ) {
@@ -96,17 +86,15 @@ void PicoGamePad::run() {
 		}
 
 		// Gamepad Features
-		gamepad->read(); 	// gpio pin reads
-	#if GAMEPAD_DEBOUNCE_MILLIS > 0
+		gamepad->read(); 	
+		#if GAMEPAD_DEBOUNCE_MILLIS > 0
 		gamepad->debounce();
-	#endif
-		gamepad->hotkey(); 	// check for MPGS hotkeys
-		gamepad->process(); // process through MPGS
+		#endif
+		
 
-		// Loop through all input modifiers/features (Analog Sticks, Turbo Buttons, Macro Inputs, Touch Screens, etc.) 
-		for (std::vector<GPAddon*>::iterator it = Storage::getInstance().Inputs.begin(); it != Storage::getInstance().Inputs.end(); it++) {
-			(*it)->process();
-		}
+		// MPG Hotkey poll 
+		gamepad->hotkey(); 	
+		gamepad->process(); 
 
 		// Copy Processed Gamepad
 		memcpy(&processedGamepad->state, &gamepad->state, sizeof(GamepadState));
@@ -122,8 +110,10 @@ void PicoGamePad::run() {
 }
 
 void PicoGamePad::setupInput(GPAddon* input) {
+
 	if (input->available()) {
 		input->setup();
 		Storage::getInstance().Inputs.push_back(input);
 	}
+
 }
